@@ -4,7 +4,7 @@
     width: 100vw;
     scroll-snap-align: start;
 }
-.screen.first{background-color: blue;}
-.screen.second{background-color: red;}
-.screen.third{background-color: green;}
-.screen.fourth{background-color: hotpink;}
+#first{background-color: blue;}
+#second{background-color: red;}
+#third{background-color: green;}
+#fourth{background-color: hotpink;}
