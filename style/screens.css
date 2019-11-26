@@ -14,10 +14,17 @@ main {
 
 }
 #first{background-color: blue;}
-#second{background-color: red;}
-#third{background-color: #000000;}
-#fourth{background-color: gray; position: relative; margin-bottom: 681px; box-shadow: 3px 2px 2px 0px rgba(51,51,51,0.5); height: 100vh;}
-#fifth{background-color: #000000; position: fixed; bottom: 0; height: 681px; z-index: 0;}
+#second{
+    background-image: url(/images/discover.png); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#third{
+    background-color: black;
+}
+#fourth{background-color: gray; position: relative; margin-bottom: 681px; box-shadow: 3px 2px 2px 0px rgba(51,51,51,0.5); height: 100vh;} 
+#fifth{background-color: #000000; position: fixed; bottom: 0; height: 681px; z-index: 0;} 
 
 #sixth{
     opacity: 0;

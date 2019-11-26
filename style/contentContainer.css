@@ -64,21 +64,30 @@
         font-size: 24px;
         color: #FFFFFF;
         opacity: 0.6;
+        margin-bottom: 0;
     }
 
     #third .contentContainer .desktop h2{
         font-weight: 500;
         font-size: 36px;
         line-height: 42px;
+        margin-top: 10px;
     }
 
-    #third .contentContainer .desktop p:nth-last-of-type(1){
+    #third .contentContainer .desktop p:nth-child(3){
         font-size: 18px;
         line-height: 25px;
         padding-left: 0;
-        margin-bottom: 55px;
-        max-width: 550px;
+        padding-bottom: 25px;
+        border-bottom: gray 1px solid;
+        margin-bottom: 50px;
+        max-width: 570px;
     }
+
+    #third .contentContainer .desktop .quality{
+        margin-left: 32px;
+    }
+
     #third .contentContainer .desktop .quality h6 {
         font-family: Aktiv Grotesk Corp;
         font-size: 18px;
@@ -99,6 +108,7 @@
         display: flex;
         align-items: center;
         margin-top: 54px;
+        cursor: pointer;
     }
     
     #third .contentContainer .desktop span{
@@ -108,9 +118,12 @@
         color: #FFFFFF;
         text-transform: uppercase;
         margin-left: 4px;
-
+        cursor: pointer;
     }
-        
+
+    #third .contentContainer .desktop p:nth-last-of-type(1){
+        padding-left: 0px;
+    }
 }
 
 
@@ -178,22 +191,19 @@
     height: 32px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 2px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
+    background-color: transparent;
+    transition: all 0.5s ease;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Roboto;
+    font-size: 12px;
     letter-spacing: 0.2em;
-    background-color: transparent;
+    padding: 5px;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
 .contentContainer .content button:hover {
-    background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.9);
-    transform: scale(1.05);
-}
+    transform: scale(1.1);
