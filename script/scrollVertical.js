@@ -1,6 +1,9 @@
 const main = document.querySelector('main');
 const buttons = document.querySelectorAll('.scrollButton');
 
+main.addEventListener('scroll',buttonHighlight);
+buttons[0].classList.add('scrollButtonHighlighted');
+
 function removeHighlight() {
     buttons.forEach(button => {
         button.classList.remove('scrollButtonHighlighted');
@@ -10,7 +13,7 @@ function removeHighlight() {
 function buttonHighlight() {
     totalHeight = main.scrollHeight;
     currentHeight = main.scrollTop;
-    sectionHeight = totalHeight/4;
+    sectionHeight = totalHeight/6;
     if(currentHeight < (sectionHeight/2)){
         removeHighlight();
         buttons[0].classList.add('scrollButtonHighlighted');
@@ -25,4 +28,3 @@ function buttonHighlight() {
         buttons[3].classList.add('scrollButtonHighlighted');
     }
 }
-main.addEventListener('scroll',buttonHighlight);
