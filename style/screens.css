@@ -3,6 +3,7 @@ main {
     overflow: scroll;
     scroll-snap-type: both mandatory;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .screen{
@@ -15,7 +16,7 @@ main {
 }
 #first{background-color: blue;}
 #second{
-    background-image: url(/images/discover.png); 
+    background-image: url(/images/discover.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,12 +24,12 @@ main {
 #third{
     background-color: black;
 }
-#fourth{background-color: gray; position: relative; margin-bottom: 681px; box-shadow: 3px 2px 2px 0px rgba(51,51,51,0.5); height: 100vh;} 
-#fifth{background-color: #000000; position: fixed; bottom: 0; height: 681px; z-index: 0;} 
+#fourth{background-color: gray; position: relative; margin-bottom: 681px; box-shadow: 3px 2px 2px 0px rgba(51,51,51,0.5); height: 100vh;}
+#fifth{background-color: #000000; position: fixed; bottom: 0; height: 100vh; z-index: 0;}
 
 #sixth{
     opacity: 0;
-    width: 100%;
+    width: 0%;
 }
 
 #fifth {
@@ -54,7 +55,12 @@ main {
     line-height: 19px;
     letter-spacing: 0.1em;
 }
-
+#fifth .download a {
+    color: rgb(151, 151, 151);
+}
+#fifth .download a:hover {
+    color: #FFFFFF;
+}
 #fifth .download p {
     margin: 6px;
 }
@@ -153,4 +159,7 @@ main {
     color: #000000;
     text-transform: uppercase;
     margin-bottom: 104px;
+}
+#fifth form button:hover{
+    transform: scale(1.05);
 }
