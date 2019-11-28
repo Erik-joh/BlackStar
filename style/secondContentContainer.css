@@ -4,7 +4,7 @@
     text-align: center;
     letter-spacing: 0.6em;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1200px) {
     #second .contentContainer h1, #first .contentContainer h1{
         font-size: 48px;
     }
