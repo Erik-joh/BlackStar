@@ -134,6 +134,10 @@
         padding-left: 0px;
     }
 
+    #third .contentContainer .learnMore img:hover {
+        transform: scale(1.1);
+    }
+
     #fourth .contentContainer {
         align-items: flex-start;
         justify-content: flex-start;
@@ -214,10 +218,10 @@
         cursor: pointer;
     }
 
-    #fourth .contentContainer .desktop p:nth-last-of-type(1){
-        padding-left: 0px;
+    #fourth .contentContainer .learnMore img:hover {
+        transform: scale(1.1);
     }
-}
+
 
 .contentContainer h1 {
     font-family: Aktiv Grotesk Corp;
