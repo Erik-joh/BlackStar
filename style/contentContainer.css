@@ -1,7 +1,7 @@
 
 .contentContainer{
     position: absolute;
-    margin-top: 109px;
+    margin-top: 60px;
     height: 50%;
     width: 100vw;
     z-index: 1;
@@ -20,7 +20,7 @@
 #third .contentContainer .mobile p {
     text-align: left;
     font-family: Aktiv Grotesk Corp;
-    font-size: 16px;
+    font-size: 18px;
     color: #FFFFFF;
     opacity: 0.6;
     text-transform: capitalize;
@@ -28,18 +28,17 @@
 
 #third .contentContainer .mobile p:nth-last-of-type(1){
     font-family: Aktiv Grotesk Corp;
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 14px;
+    line-height: 20px;
     opacity: 0.6;
     text-transform: capitalize;
-    padding-left: 10px;
 }
 
 #third .contentContainer .mobile h2 {
     font-family: Aktiv Grotesk Corp;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: capitalize;
     text-align: left;
 }
@@ -56,7 +55,7 @@
     visibility: hidden;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 1200px){
     
     #third .mobile{
         visibility: hidden;
@@ -66,12 +65,15 @@
         visibility: visible;
         position: absolute;
         top: 0;
+        width: 50%;
     }
 
     #third .contentContainer .desktop p{
         font-family: Aktiv Grotesk Corp;
-        font-size: 24px;
+        font-size: 23px;
         color: #FFFFFF;
+        font-style: normal;
+        font-weight: normal;
         opacity: 0.6;
         margin-bottom: 0;
     }
@@ -90,7 +92,7 @@
         padding-bottom: 25px;
         border-bottom: gray 1px solid;
         margin-bottom: 50px;
-        max-width: 570px;
+        max-width: 480px;
     }
 
     #third .contentContainer .desktop .quality{
@@ -161,6 +163,7 @@
         opacity: 0.6;
         margin-bottom: 0;
         text-align: left;
+        text-transform: none;
     }
 
     #fourth .contentContainer .desktop h2{
@@ -169,6 +172,7 @@
         line-height: 42px;
         margin-top: 10px;
         text-align: left;
+        text-transform: none;
     }
 
     #fourth .contentContainer .desktop p:nth-child(3){
@@ -177,8 +181,9 @@
         padding-left: 0;
         padding-bottom: 25px;
         border-bottom: gray 1px solid;
+        color: #FFFFFF;
         margin-bottom: 50px;
-        max-width: 570px;
+        max-width: 480px;
     }
 
     #fourth .contentContainer .desktop .quality{
