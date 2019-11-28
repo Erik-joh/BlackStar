@@ -1,0 +1,153 @@
+#footer{
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    max-height: 100vh;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 14px;
+}
+
+#footer .logo{
+    margin: 80px 0 80px 0;
+}
+
+#footer p {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+}
+#footer .download a {
+    opacity: 0.6;
+}
+#footer .download a:hover{
+    opacity: 1.0;
+}
+
+#footer .download p {
+    margin: 6px;
+}
+
+#footer .download p:last-child {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    margin-bottom: 90px;
+}
+
+#footer .download p:last-child:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#footer .socialMedia {
+    width: 235px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#footer .socialMedia img:hover {
+    transform: scale(1.2);
+}
+
+#footer .contact ul {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0;
+    width: 90vw;
+    margin: 32px 55px 14px 55px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#footer .contact li {
+    list-style: none;
+}
+
+#footer .contact li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#footer .contact p {
+    font-size: 8px;
+    line-height: 9px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+#footer form {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-align: left;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer form input {
+    background-color: transparent;
+    border: 0;
+    opacity: 0.6;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 5px;
+    margin-top: 8px;
+    margin-bottom: 41px;
+    width: 252px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    opacity: 0.3;
+}
+
+#footer form input:focus{
+    outline: none;
+}
+
+#footer form input:focus::-webkit-input-placeholder { color:transparent;}
+
+#footer form button {
+    background: #FFFFFF;
+    border-radius: 2px;
+    width: 128px;
+    height: 48px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 104px;
+}
+#footer form button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
