@@ -8,20 +8,20 @@
     text-align: left;
     font-size: 18px;
     opacity: 0.6;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #third .contentContainer .mobile p:nth-last-of-type(1){
     font-size: 14px;
     line-height: 20px;
     opacity: 0.6;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 #third .contentContainer .mobile h2 {
     font-weight: 500;
     font-size: 20px;
-    text-transform: capitalize;
+    text-transform: none;
     text-align: left;
 }
 
@@ -40,6 +40,7 @@
         position: absolute;
         top: 0;
         width: 50%;
+        margin-top: 30px;
     }
 
     #third .contentContainer .desktop p{

@@ -3,7 +3,7 @@
     src: url('/AktivGroteskCorp/AktivGroteskCorp-Regular.woff') format('woff');
   }
 *{
-    font-family: Aktiv Grotesk Corp;
+    font-family: Aktiv Grotesk Corp, sans-serif;
     font-style: normal;
     font-weight: normal;
     color: white;
