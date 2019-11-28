@@ -12,6 +12,10 @@
     transform: scale(1.05);
 }
 
+.hamburgerButton:focus {
+    outline: none;
+}
+
 .hamburgerButton {
     width: 21px;
     height: 21px;
