@@ -54,7 +54,7 @@ main {
 
 #sixth{
     opacity: 0;
-    width: 100%;
+    width: 0%;
 }
 
 #fifth {
@@ -83,9 +83,7 @@ main {
 #fifth .download a {
     color: rgb(151, 151, 151);
 }
-#fifth .download a:hover {
-    color: #FFFFFF;
-}
+
 #fifth .download p {
     margin: 6px;
 }
@@ -96,8 +94,12 @@ main {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.1em;
-    text-decoration-line: underline;
     margin-bottom: 90px;
+}
+
+#fifth .download p:last-child:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 #fifth .socialMedia {
@@ -105,6 +107,12 @@ main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 32;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#fifth .socialMedia img:hover {
+    transform: scale(1.2);
 }
 
 #fifth .contact ul {
@@ -124,6 +132,11 @@ main {
 
 #fifth .contact li {
     list-style: none;
+}
+
+#fifth .contact li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 #fifth .contact p {
@@ -164,11 +177,16 @@ main {
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
     opacity: 0.3;
 }
+
+#fifth form input:focus{
+    outline: none;
+}
+
+#fifth form input:focus::-webkit-input-placeholder { color:transparent;}
 
 #fifth form button {
     background: #FFFFFF;
@@ -187,4 +205,5 @@ main {
 }
 #fifth form button:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
