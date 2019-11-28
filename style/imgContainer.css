@@ -1,8 +1,8 @@
-.imgContainer{
+.imgContainer, .imgContainerStatic{
     height: 100%;
     width: 100%;
 }
-.imgContainer .img {
+.imgContainer .img, .imgContainerStatic .img {
     display: block;
     position: absolute;
     top:0;
@@ -26,4 +26,51 @@
 @keyframes animateImg{
     from{margin-left: 100%;}
     to {margin-left: 0%;}
+}
+#first .one{
+    background-image: url(/images/mobil/img1-1.png);
+}
+#first .two{
+    background-image: url(/images/mobil/img1-2.png);
+}
+#second .one{
+    background-image: url(/images/mobil/img2-1.png);
+}
+#second .two{
+    background-image: url(/images/mobil/img2-2.png);
+}
+#third .one{
+    background-image: url(/images/mobil/img3-1.png);
+}
+#third .two{
+    background-image: url(/images/mobil/img3-2.png);
+}
+#third .two{
+    background-image: url(/images/mobil/img3-2.png);
+}
+#fourth .one{
+    background-image: url(/images/mobil/img4-1.png);
+}
+@media only screen and (min-width: 600px) {
+    #first .one{
+        background-image: url(/images/desktop/img1-1.png);
+    }
+    #first .two{
+        background-image: url(/images/desktop/img1-2.png);
+    }
+    #second .one{
+        background-image: url(/images/desktop/img2-1.png);
+    }
+    #second .two{
+        background-image: url(/images/desktop/img2-2.png);
+    }
+    #third .one{
+        background-image: url(/images/desktop/img3-1.png);
+    }
+    #third .two{
+        background-image: url(/images/desktop/img3-2.png);
+    }
+    #fourth .one{
+        background-image: url(/images/desktop/img4-1.png);
+    }
 }

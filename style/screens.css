@@ -14,40 +14,13 @@ main {
     position: relative;
 
 }
-#first{background-color: blue;}
-
-#second{
-    background-image: url(/images/img2-1-mobil.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#third{
-    background-image: url(/images/img3-1-mobil.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; 
-}
-
-@media only screen and (min-width: 600px) {
-#second{
-    background-image: url(/images/img2-1-desktop.png);
-}
-#third{
-    background-image: url(/images/img3-desktop.png);
-}
-}
-
 #fourth{
-    background-image: url(/images/img4-desktop.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; 
-    margin-bottom: 100vh; 
-    box-shadow: 3px 2px 2px 0px rgba(51,51,51,0.5); 
+    position: relative;
+    margin-bottom: 100vh;
+    box-shadow: 3px 2px 2px 0px rgba(51,51,51,0.5);
     height: 100vh;
 }
 #fifth{background-color: #000000; position: fixed; bottom: 0; height: 100vh; z-index: 0;}

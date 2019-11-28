@@ -1,6 +1,8 @@
 setInterval(function(){
-    let element = document.querySelector('.img');
-    let container = document.querySelector('.imgContainer');
-    container.append(element);
-    element.classList.add('imgAnimate');
+    let containers = document.querySelectorAll('.imgContainer');
+    containers.forEach(container => {
+        let element = container.querySelector('.img');
+        container.append(element);
+        element.classList.add('imgAnimate');
+    });
 },10000);
