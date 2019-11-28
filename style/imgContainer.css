@@ -1,6 +1,7 @@
 .imgContainer, .imgContainerStatic{
     height: 100%;
     width: 100%;
+    background-color: white;
 }
 .imgContainer .img, .imgContainerStatic .img {
     display: block;
