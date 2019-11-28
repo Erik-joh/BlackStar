@@ -22,7 +22,7 @@
     #fourth .desktop{
         visibility: visible;
         position: absolute;
-        top: 0;
+        top: 30px;
     }
 
     #fourth .contentContainer .desktop p{
