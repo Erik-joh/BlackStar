@@ -1,0 +1,92 @@
+
+#fourth .content{
+    height: 45vh;
+}
+
+#fourth .desktop {
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 1200px){
+
+    #fourth .contentContainer {
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+
+    #fourth .mobile{
+        visibility: hidden;
+    }
+
+    #fourth .desktop{
+        visibility: visible;
+        position: absolute;
+        top: 0;
+    }
+
+    #fourth .contentContainer .desktop p{
+        font-size: 24px;
+        opacity: 0.6;
+        margin-bottom: 0;
+        text-align: left;
+        text-transform: none;
+    }
+
+    #fourth .contentContainer .desktop h2{
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        margin-top: 10px;
+        text-align: left;
+        text-transform: none;
+    }
+
+    #fourth .contentContainer .desktop p:nth-child(3){
+        font-size: 18px;
+        line-height: 25px;
+        padding-left: 0;
+        padding-bottom: 25px;
+        border-bottom: gray 1px solid;
+        margin-bottom: 50px;
+        max-width: 480px;
+    }
+
+    #fourth .contentContainer .desktop .quality{
+        margin-left: 32px;
+    }
+
+    #fourth .contentContainer .desktop .quality h6 {
+
+        font-size: 18px;
+        line-height: 25px;
+
+        margin: 0;
+    }
+
+    #fourth .contentContainer .desktop .quality p{
+        font-size: 12px;
+        opacity: 0.6;
+        margin-top: 5px;
+        margin-bottom: 22px;
+    }
+
+    #fourth .contentContainer .learnMore{
+        display: flex;
+        align-items: center;
+        margin-top: 54px;
+        cursor: pointer;
+    }
+
+    #fourth .contentContainer .desktop span{
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        margin-left: 4px;
+        cursor: pointer;
+    }
+
+    #fourth .contentContainer .learnMore img:hover {
+        transform: scale(1.1);
+    }
+}

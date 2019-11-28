@@ -26,11 +26,7 @@
 
 .language {
     margin: 20px;
-    font-family: Aktiv Grotesk Corp;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    color: #FFFFFF;
     opacity: 0.6;
     cursor: pointer;
     z-index: -1;
@@ -67,12 +63,9 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
-    font-weight: normal;
-    font-family: Aktiv Grotesk Corp;
     width: 100%;
     height: 10%;
     min-height: 76px;
@@ -117,16 +110,14 @@ nav a:nth-child(7){
 @media only screen and (min-width: 600px) {
     .hamburgerButton::after {
         content: "Menu";
-        font-family: Aktiv Grotesk Corp;
         font-size: 14px;
         line-height: 16px;
         text-align: center;
         letter-spacing: 0.2em;
-        color: #FFFFFF;
         text-transform: uppercase;
         margin: 0 31px;
     }
-    
+
     nav {
       width: 519px;
     }
