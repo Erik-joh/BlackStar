@@ -1,7 +1,7 @@
 
 .contentContainer{
     position: absolute;
-    margin-top: 109px;
+    margin-top: 60px;
     height: 50%;
     width: 100vw;
     z-index: 1;
@@ -9,6 +9,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+#first .contentContainer img{
+    height: 4.5%;
+    width: auto;
 }
 
 #third .contentContainer {
@@ -56,8 +61,13 @@
     visibility: hidden;
 }
 
+#first .content h1{
+    margin-top: 0;
+    margin-bottom: 4%;
+}
+
 @media only screen and (min-width: 600px){
-    
+
     #third .mobile{
         visibility: hidden;
     }
@@ -119,7 +129,7 @@
         margin-top: 54px;
         cursor: pointer;
     }
-    
+
     #third .contentContainer .desktop span{
         font-family: Aktiv Grotesk Corp;
         font-size: 18px;
@@ -207,7 +217,7 @@
         margin-top: 54px;
         cursor: pointer;
     }
-    
+
     #fourth .contentContainer .desktop span{
         font-family: Aktiv Grotesk Corp;
         font-size: 18px;
@@ -303,3 +313,5 @@
 .contentContainer .content button:hover {
     border: 1px solid rgba(255, 255, 255, 1);
     transform: scale(1.1);
+}
+
