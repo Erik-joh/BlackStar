@@ -7,19 +7,17 @@
     padding: 0;
     margin: 0;
     z-index: 0;
-}
-#footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    font-weight: 300;
     text-align: center;
-    padding-bottom: 14px;
 }
 
 #footer .logo{
-    margin: 80px 0 80px 0;
+    height: 16px;
+    width: 208px;
+    margin: 60px 0 40px 0;
 }
 
 #footer p {
@@ -44,7 +42,7 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.1em;
-    margin-bottom: 90px;
+    margin-bottom: 10%;
 }
 
 #footer .download p:last-child:hover {
@@ -117,7 +115,7 @@
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 5px;
     margin-top: 8px;
-    margin-bottom: 41px;
+    margin-bottom: 25px;
     width: 252px;
     font-style: normal;
     font-weight: normal;
@@ -145,7 +143,7 @@
     text-align: center;
     color: #000000;
     text-transform: uppercase;
-    margin-bottom: 104px;
+    margin-bottom: 50px;
 }
 #footer form button:hover{
     transform: scale(1.05);
